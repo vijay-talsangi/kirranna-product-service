@@ -1,0 +1,49 @@
+### Build Tools (Maven/Gradle) ###
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+bin/
+
+### Environment & Secrets (CRITICAL) ###
+# Do not commit your database passwords or API keys
+.env
+*.env
+.env.local
+
+### IDE Specifics ###
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### Operating System ###
+.DS_Store
+Thumbs.db
+
+### Log files ###
+*.log
+logs/
+
+### Help & Temp ###
+HELP.md
+.temp/
+
+# Database data directories
+/mysql/
+/data
